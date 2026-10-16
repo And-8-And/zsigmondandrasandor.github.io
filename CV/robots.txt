@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://and-8-and.github.io/sitemap.xml
