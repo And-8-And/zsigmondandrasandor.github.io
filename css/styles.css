@@ -117,7 +117,6 @@ img.floatLeft {
 
 }
 
-/* ===HEADER===*/
 #header{
 	background-image: url(../img/resume.png);
 	width:990px;
@@ -170,8 +169,7 @@ img.floatLeft {
 .main_panel li.last{
 	margin:0;
 	}
-	
-/* ===NAME AND TITTLE===*/	
+
 #name_tittle {
 	 
 	background-repeat: no-repeat;
@@ -180,7 +178,7 @@ img.floatLeft {
 #name_tittle h1{
 	font-family: var(--font-head);
 	color: var(--color-dark);
-	font-size: 64px;
+	font-size: 45px;
 	white-space: nowrap;
 	text-align:left;
 	font-weight:bold;
@@ -198,7 +196,7 @@ img.floatLeft {
 #name_tittle li{
 	padding: 0px;
 }
-/* ===CONTACT LIST===*/	
+
 .work_list{
 	float: left;
 	margin: 0 0 0 -70px;
@@ -258,7 +256,6 @@ img.floatLeft {
 	background-repeat: repeat-x;
 }
 
-/* ===RIBBON===*/	
 .ribbon{
     color: var(--color-primary);
     font-size: 30px;
@@ -286,7 +283,7 @@ img.floatLeft {
     font-weight: bold;
     width: 865px;
 }
-/* ===YOUR PHOTO /AVATAR===*/	
+
 #avatar{
     border: 1px solid var(--color-border);
     padding: 4px;
@@ -309,7 +306,7 @@ img.floatLeft {
     color:var(--color-text);
     padding:  0 0 0 10px;
 }
-/* ===SKILL SET===*/
+
 #skill_list ul{
     list-style-type: none;
     text-align:right;
@@ -399,7 +396,6 @@ img.floatLeft {
 	width:0px;
 	background-color:var(--color-primary);
 }
-/* ===jQuery lightBox plugin - Gallery style ===*/	
 
 #gallery {
 	padding: 25px 12px;
@@ -422,10 +418,6 @@ img.floatLeft {
 	border: 1px solid var(--color-border);
 }
 #gallery ul a:hover { color: #fff; }
-	
-
-
-/* === CONTACT FORM  ===*/	
 
 #page-wrap {
 	width: 660px;
@@ -480,7 +472,6 @@ img.floatLeft {
     width: 70px;
 }
 
-/* ===WHY ME  ===*/	
 .why_me h1{
     color: var(--color-dark);
     font-family: var(--font-head);
@@ -501,7 +492,6 @@ img.floatLeft {
 	}
 
 
-/* ===DOWN TOP - GALLERY STYLE  ===*/
 .nav_up, .nav_down {
 	display: none;
 	box-sizing: content-box;
@@ -524,28 +514,23 @@ img.floatLeft {
 .nav_down { right: 70px; background-image: url("../img/images/arrow_down.png"); }
 
 
-/* ===FORM STATUS===*/
 .form-row { overflow: hidden; }
 .hp { position: absolute; left: -9999px; }
 #form-status { clear: both; color: var(--color-dark); font-weight: bold; }
 
-/* ===TOOLTIP (tipsy)===*/
 .tipsy { position: absolute; z-index: 100000; padding: 5px; font-size: 11px; }
 .tipsy-inner { background: var(--color-dark); color: #fff; max-width: 200px; padding: 5px 8px 4px; text-align: center; border-radius: 3px; }
 .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed var(--color-dark); }
 .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
 .tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
 
-/* ===SCROLL REVEAL===*/
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.visible { opacity: 1; transform: none; }
 
-/* ===COOKIE / ANALYTICS NOTICE===*/
 #consent { display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 200;
 	padding: 12px 20px; background: var(--color-dark); color: #fff;
 	font: 13px var(--font-body); text-align: center; }
 #consent button { margin-left: 10px; padding: 4px 14px; cursor: pointer; }
 
-/* ===KEYBOARD FOCUS===*/
 a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible,
 .nav_up:focus-visible, .nav_down:focus-visible { outline: 2px solid var(--color-secondary); outline-offset: 2px; }

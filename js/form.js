@@ -1,7 +1,7 @@
 
 var EMAILJS_PUBLIC_KEY  = 'PPn3LqQon7Dpe63wp';
 var EMAILJS_SERVICE_ID  = 'service_5v414uk';
-var EMAILJS_TEMPLATE_ID = 'template_rcy7akf';
+var EMAILJS_TEMPLATE_ID = 'template_f6lldf8';
 var RECAPTCHA_SITE_KEY  = '6Led__EtAAAAACBTMv7fXEUhmuBCfchY07zAAj_y';
 
 emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
