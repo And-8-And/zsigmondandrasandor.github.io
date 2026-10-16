@@ -1,9 +1,8 @@
-/* ===THEME: change the whole colour scheme here=== */
 :root {
-	--color-primary:   #14738a;  /* ribbons, links, progress bars */
-	--color-dark:      #0b3a4f;  /* name, contact button, why_me */
-	--color-secondary: #4fa6bd;  /* lighter progress bars */
-	--color-accent:    #6b2f7a;  /* cms/seo bars */
+	--color-primary:   #14738a;
+	--color-dark:      #0b3a4f;
+	--color-secondary: #4fa6bd;
+	--color-accent:    #6b2f7a;
 	--color-text:      #737475;
 	--color-text-dark: #74767A;
 	--color-border:    #CFD0CB;

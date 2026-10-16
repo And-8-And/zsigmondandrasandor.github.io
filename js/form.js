@@ -1,9 +1,8 @@
-/* ===== FILL THESE IN (see README steps in the chat) ===== */
-var EMAILJS_PUBLIC_KEY  = 'IDE_A_PUBLIC_KEY';
-var EMAILJS_SERVICE_ID  = 'IDE_A_SERVICE_ID';
-var EMAILJS_TEMPLATE_ID = 'IDE_A_FO_SABLON_ID';   // main template; its Auto-Reply tab links the confirmation template
-var RECAPTCHA_SITE_KEY  = 'IDE_A_SITE_KEY';        // reCAPTCHA v2 Invisible
-/* ======================================================== */
+
+var EMAILJS_PUBLIC_KEY  = 'PPn3LqQon7Dpe63wp';
+var EMAILJS_SERVICE_ID  = 'service_5v414uk';
+var EMAILJS_TEMPLATE_ID = 'template_rcy7akf';
+var RECAPTCHA_SITE_KEY  = '6Led__EtAAAAACBTMv7fXEUhmuBCfchY07zAAj_y';
 
 emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
 
@@ -21,13 +20,13 @@ function onloadCaptcha() {
 
 form.addEventListener('submit', function (e) {
   e.preventDefault();
-  if (form.website.value) return;                  // honeypot: bots fill this
+  if (form.website.value) return;
   if (!form.checkValidity()) {
     statusEl.textContent = 'Please fill in all fields correctly.';
     return;
   }
   statusEl.textContent = 'Sending...';
-  grecaptcha.execute(captchaId);                   // invisible check, then sendMail()
+  grecaptcha.execute(captchaId);
 });
 
 function sendMail() {
